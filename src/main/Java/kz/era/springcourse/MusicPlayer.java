@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MusicPlayer {
-    private List<Music> musicList = new ArrayList<>();
     private Music music;
     private String name;
     private int volume;
