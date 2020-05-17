@@ -9,24 +9,5 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
 
-    <bean id="musicBean"
-          class="kz.era.springcourse.ClassicalMusic"
-          init-method="doMyInit"
-          destroy-method="doMyDestroy">
-    </bean>
-
-<!--    <bean id="claMusic"-->
-<!--          class="kz.era.springcourse.ClassicalMusic">-->
-<!--    </bean>-->
-<!--    <bean id="rockMusic"-->
-<!--          class="kz.era.springcourse.RockMusic">-->
-<!--    </bean>-->
-
-<!--    <bean id="musicPlayer" class="kz.era.springcourse.MusicPlayer"-->
-<!--            scope="prototype">-->
-<!--        <property name="music" ref="rockMusic"/>-->
-
-<!--        <property name="volume" value="${musicPlayer.volumeKz}"/>-->
-<!--        <property name="name" value="${musicPlayer.nameKz}"/>-->
-<!--    </bean>-->
+    <context:component-scan base-package="kz.era.springcourse"/>
 </beans>
