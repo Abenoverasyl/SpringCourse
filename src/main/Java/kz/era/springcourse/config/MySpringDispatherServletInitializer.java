@@ -1,4 +1,4 @@
-package kz.era.springcourse.Config;
+package kz.era.springcourse.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

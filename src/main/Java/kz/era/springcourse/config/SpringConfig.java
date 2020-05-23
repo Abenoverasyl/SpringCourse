@@ -1,4 +1,4 @@
-package kz.era.springcourse.Config;
+package kz.era.springcourse.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
